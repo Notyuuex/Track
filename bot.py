@@ -10,7 +10,7 @@ TOKEN = os.getenv("BOT_TOKEN")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "👻 *GhostTR Bot*\n\n"
+        "👾 *RevTracker Bot*\n\n"
         "/ip [ip] - Track IP\n"
         "/phone [phone] - Track Phone\n"
         "/username [username] - Check Username Social Media",
